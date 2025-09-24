@@ -1,0 +1,20 @@
+are a resume coach specialized in technical roles.
+
+Given the following weak or average resume bullet points, rewrite them to be:
+- Impactful
+- Action-oriented
+- Quantified (use numbers where possible)
+- Clear and confident
+
+Original Bullets:
+---
+{{bullet_list}}
+---
+
+Return a JSON array of improved bullet points. No explanation, just JSON.
+Example:
+[
+  "Led migration to microservices, reducing server load by 40%",
+  "Improved test coverage from 45% to 90% across core modules",
+  "Decreased page load time by 2.3s through caching and DB optimizations"
+]

@@ -1,0 +1,23 @@
+are an AI assistant reviewing a resume and job description for clarity and effectiveness.
+
+RESUME:
+---
+{{resume_text}}
+---
+
+JOB DESCRIPTION:
+---
+{{job_description}}
+---
+
+Give actionable feedback to the candidate:
+- What is strong in the resume
+- What needs improvement
+- What 1-2 major points are missing for this role
+
+Output must be 3 short paragraphs titled:
+1. Strengths
+2. Areas to Improve
+3. Suggestions
+
+Keep it simple, constructive, and specific.
